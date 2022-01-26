@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Secular+One&family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Poppins:wght@300&family=Secular+One&family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+hr {
+    color: black;
+}
+
+ol {
+    display: none;
+    position: absolute;
+}
+
+/***HEADER***/
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(248, 247, 247);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu li {
+    display: inline;
+    position: relative;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.listaMenu {
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.textoMenu {
+    text-decoration: none;
+    color: coral;
+}
+ 
+
+
+/***MAIN***/
+
+.fotoPrincipal {
+    width: 100%;
+    height: 460px;
+   /* transition: width 3s, height 2s; */
+}
+
+/*.fotoPrincipal:hover {
+    width: 50%;
+    height: 50%;
+}*/
+
+h1 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(104, 104, 104);
+    background-image: linear-gradient(to bottom right, salmon, orange);
+    animation-name: tituloUno;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+@keyframes tituloUno {
+    from {
+        transform: translateX(-500px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-size: 60px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(104, 104, 104);
+    animation-name: tituloDos;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+@keyframes tituloDos {
+    from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+img.whatsapp {
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    right: 1210px;
+    top: 550px;
+   /* z-index: 0;*/
+    position: fixed;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.videoIframe {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    margin: 20px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-size: 35px;
+    margin: 10px;
+    font: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(104, 104, 104);
+    text-align: center;
+}
+
+.parrafoEncuentro {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.tituloParrafo {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 640px;
+}
+
+.titularNovedades {
+    text-align: center;
+    display: block;
+    margin: 15px;
+}
+
+.novedades {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h4 {
+    font: Light 300 italic;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;margin-bottom: 10px;
+    color: rgb(104, 104, 104)
+}
+
+.contenedorNovedades {
+    width: 380px;
+    height: 670px;
+    border: rgb(224, 233, 238) solid 1px;
+    margin: 20px;
+    display: block;
+}
+
+h5 {
+    font-size: 28px;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 1% 5% 0% 5%;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    margin: 2% 5% 1% 5%;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+div input {
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    margin: 2% 8% 1% 8%;
+}
+
+.publicacionFacebook {
+    margin: 0;
+    padding: 0;
+}
+
+.publicacionYoutube {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+article img {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*ELECCIONES*/
+.border {
+    border-top: 1px solid black;
+ }
+ 
+ #gridCuerpo {
+    display: grid;
+    grid-template-areas: 
+    "cabeza cabeza cabeza"
+    "facebook generales youtube"
+    "facebook paso youtube"
+    "pie pie pie";
+    /*grid-template-rows: 100px 1fr 1fr 75px;*/ 
+    grid-template-rows: 60px auto auto 80px;
+    grid-template-columns: 20% auto 20%;
+ }
+ 
+ #cabeza {
+    grid-area: cabeza;
+ }
+ 
+ #generales {
+    grid-area: generales;
+ }
+ 
+ #paso {
+    grid-area: paso;
+ }
+ 
+ #facebook {
+    grid-area: facebook;
+ }
+ 
+ #youtube {
+    grid-area: youtube;
+ }
+ 
+ #pie {
+    grid-area: pie;
+ }
+
+
+/***FOOTER***/
+footer {
+    background-color: cadetblue;
+}
+
+address {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*REDES SOCIALES*/
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logosRedes {
+    margin: 10px;
+    padding: 5px;
+}
+
