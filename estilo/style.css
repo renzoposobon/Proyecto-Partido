@@ -316,6 +316,11 @@ address {
     justify-content: flex-start;
 }
 
+ul li::marker {
+    display: none;
+    color: cadetblue;
+}
+
 .logosRedes {
     margin: 10px;
     padding: 5px;
